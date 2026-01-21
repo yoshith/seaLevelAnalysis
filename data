@@ -1,0 +1,12 @@
+The data used in this study were obtained programmatically via the National Oceanic and Atmospheric Administration (NOAA) APIs. 
+Specifically, tide and current observations were retrieved from NOAA’s Tides & Currents data services for all available stations.
+
+The dataset includes station-level water level measurements and associated metadata as provided by NOAA. 
+Data were accessed through automated API queries to ensure consistency and reproducibility across stations.
+
+Due to size considerations, the raw data files are not stored in this repository. 
+Instead, the notebooks and scripts included here demonstrate how to retrieve the data directly from NOAA’s official services.
+
+Source: NOAA Tides & Currents
+Access: NOAA public APIs
+URL: https://tidesandcurrents.noaa.gov
